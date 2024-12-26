@@ -1,0 +1,117 @@
+.container {
+    font-family: 'Inter', sans-serif;
+    color: rgb(130, 127, 127);
+}
+
+.fullscreen {
+    height: 100vh;
+    width: 100%;
+}
+
+.login button {
+    border-radius: 0!important;
+}
+
+.carousel {
+    height: 40vh;
+}
+
+.carousel-item img{
+    height: 40vh;
+}
+
+.carousel_image {
+  position: relative;
+}
+
+.carousel-content {
+  width: 60%;
+}
+
+.likeButton {
+  cursor: pointer;
+}
+
+/* .likeButton.liked {
+  color: #FD1D1D;
+} */
+
+
+.icon {
+    cursor: pointer;
+}
+
+textarea::placeholder {
+  font-weight: normal;
+}
+textarea {
+  font-weight: bold;
+}
+
+.havbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+  padding: 1.5%;
+}
+
+.backgroundImage {
+    background-image: url('../public/login.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.loginButton {
+    border-radius: 5px!important;
+    width: 50%;
+    margin: auto;
+}
+
+.loginInput {
+    border: none!important;
+    border-bottom: 1px!important;
+}
+
+.titleText {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: bold;
+}
+
+p.titleText {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: normal;
+}
+
+.communities {
+    overflow-y: scroll;
+    max-height: 70vh;
+    margin-top: 25px;
+    border: 1px #a0a0a0 solid;
+    border-radius: 10px;
+}
+
+.communities::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.community {
+    padding: 2%;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom: 1px solid #a0a0a0;
+    color: #000;
+    font-weight: 500;
+}
+
+.community.active {
+    background-color: #444444;
+    color: white;
+}
+
+.community:last-child {
+    border-bottom: 1px solid #000;
+}
